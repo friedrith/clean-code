@@ -65,4 +65,4 @@ This approach based on polymorphism is more scalable. It also hides some complex
 Benefits:
 
 - make the function shorter (shorter is better)
-- it is scalable to other modification (adding the currency symbol on the left or right depending on the locale for example)
+- it is scalable to other modification (adding the currency symbol on the left or right depending on the locale for example, rounding the price)
