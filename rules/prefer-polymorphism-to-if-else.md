@@ -32,10 +32,10 @@ function renderTotalPrice(prices: number[], currency: string) {
 }
 ```
 
-But this approach has several major drawbacks:
+But these approaches have the same major drawbacks:
 
-- it is not scalable: everytime you need to add a currency you need to modify this function
-- when developers read the code they need to pass through the complexity of each condition. Sometimes it may be really longer and harder for one condition.
+- they are not scalable: everytime you need to add a currency you need to modify the function
+- when developers read the code they need to pass through the complexity of each condition. Sometimes it may be really long and hard.
 
 We suggest the alternative solution:
 
@@ -61,3 +61,8 @@ renderTotalPrices([1, 2, 3], formatDollar)
 ```
 
 This approach based on polymorphism is more scalable. It also hides some complexity and helps to keep the code clean.
+
+Benefits:
+
+- make the function shorter (shorter is better)
+- it is scalable to other modification (adding the currency symbol on the left or right depending on the locale for example)
