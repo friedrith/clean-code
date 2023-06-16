@@ -67,7 +67,7 @@ But these approaches have two same major drawbacks:
 - they are not scalable: everytime you need to add a currency you need to modify the function
 - when developers read the code they need to pass through the complexity of euros and dollars. For more complex features, it may be really long and hard.
 
-We suggest the alternative solution:
+This is an alternative solution:
 
 ```ts
 function renderTotalPrices(
