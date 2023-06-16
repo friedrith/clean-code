@@ -28,7 +28,7 @@ The approach based on conditions will make you slower to debug and fix bug. It i
 
 ## Practical examples
 
-Given the following function return prices in euro like `100 €`:
+Given the following function return prices in euro like `total price: 100 €`:
 
 ```ts
 function renderTotalPrice(prices: number[]) {
@@ -38,7 +38,7 @@ function renderTotalPrice(prices: number[]) {
 }
 ```
 
-When you are asked to manage also US dollars with a result like `$100 USD`, then the common behavior is to add another parameter to detect the difference between
+When you are asked to manage also US dollars with a result like `total price: $100 USD`, then the common behavior is to add another parameter to detect the difference between
 euros and dollars:
 
 ```ts
