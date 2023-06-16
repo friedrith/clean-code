@@ -1,4 +1,4 @@
-# Prefer polymorphism to if/else or switch/case
+# Prefer polymorphism to conditions
 
 ## Theory
 
@@ -65,7 +65,7 @@ function renderTotalPrice(prices: number[], currency: Currency) {
 But these approaches have two same major drawbacks:
 
 - they are not scalable: everytime you need to add a currency you need to modify the function
-- when developers read the code they need to pass through the complexity of euros and dollars. For more complex features, it may be really long and hard.
+- when developers read the code they need to pass through the complexity of euros **and** dollars. For more complex features, it may be really long and hard.
 
 This is an alternative solution:
 
