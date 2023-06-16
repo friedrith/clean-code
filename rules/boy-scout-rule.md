@@ -1,6 +1,14 @@
 # Boy scout rule
 
-Leave the campground cleaner than you found it.
+## Theory
+
+_Leave the campground cleaner than you found it._ from _Clean code_ by Robert C. Martin p14.
+
+Because of careless mistakes, rush or feature mistunderstanding, code smells are progressively integrated in the code.
+Using the rule of the boy scout and by spontaneously refactoring before or after you added your feature, you will ensure that the
+global code quality will be stable.
+
+## Practical examples
 
 Given the following function:
 
@@ -37,3 +45,5 @@ function renderTotalPrice(prices: number[]) {
 ```
 
 By applying the boy scout rule, the general code quality will improve or at least be stable.
+
+> Try to refactor the code around in a dedicated PR/MR before or after your own feature to help other developers to understand the scope of your work.

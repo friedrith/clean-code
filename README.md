@@ -10,3 +10,4 @@ This repo is just a list of examples illustrated with code and is not intended t
 
 - [Prefer polymorphism to if/else and switch/case](./rules/prefer-polymorphism-to-if-else.md)
 - [Boy scout rule](./rules/boy-scout-rule.md)
+- [Less comments is better](./rules/less-comments-is-better.md)

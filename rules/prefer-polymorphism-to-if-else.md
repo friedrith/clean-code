@@ -22,7 +22,7 @@ function f() {
 }
 ```
 
-This situation really degradates the code readibility. If you are a developer debugging some part of the feature `A` and who arrives
+This situation really degrades the code readibility. If you are a developer debugging some part of the feature `A` and who arrives
 in the function `f`, you will need to understand the code of the feature `A` and `B` to understand the function and be able to find the bug.
 The approach based on conditions will make you slower to debug and fix bug. It is a wrong practice. With examples, you will understand how to do better.
 
