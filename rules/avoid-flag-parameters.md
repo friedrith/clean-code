@@ -10,7 +10,7 @@ Boolean are often good examples of flag parameters. They should be avoided as mu
 
 ## Practical examples
 
-> The issue of the function definition readibility is detailed in the rule [Prefer polymorphism to conditions]('./prefer-polymorphism-to-conditions.md). This rule also explains the solution to these flags parameters.
+> The issue of the function definition readibility is detailed in the rule [Prefer polymorphism to conditions](./prefer-polymorphism-to-conditions.md). This rule also explains the solution to these flags parameters.
 
 Given a function to render the price with 2 different behavior for euros and dollar using a boolean.
 

@@ -11,4 +11,6 @@ This repo is just a list of examples illustrated with code and is not intended t
 - [Prefer polymorphism to conditions](./rules/prefer-polymorphism-to-conditions.md)
 - [Boy scout rule](./rules/boy-scout-rule.md)
 - [Less comments is better](./rules/less-comments-is-better.md)
-- [Avoid flag parameters]('./rules/avoid-flag-parameters.md)
+- [Avoid flag parameters](./rules/avoid-flag-parameters.md)
+- [Given, when, then pattern](./rules/given-when-then-pattern.md)
+- [One level of abstraction per function](./rules/one-level-of-abstraction-per-function.md)

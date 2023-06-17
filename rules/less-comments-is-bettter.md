@@ -16,6 +16,8 @@ Behind this flashy title, the goal is not to remove all documentation of your co
 
 _There are certainly times when code makes a poor vehicle for explanation. Unfortunately, many programmers have taken this to mean that code is seldom, if ever, a good means for explanation. This is patently false._ from _Clean code_ by Robert C. Martin p55.
 
+> This rule applies to comments and generally all documentation related to the code explanation. But it doesn't apply to API documentation that is often designed to be used without even diving in the code. [Mui documentation](https://mui.com/material-ui/getting-started/overview/) is for example very useful and shouldn't be remove. It also doesn't apply to CONTRIBUTING.md or README.md that are often documentation about the team practices or how to start the project.
+
 ## Practical examples
 
 We can see code like this sometimes:
